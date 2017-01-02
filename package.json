@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-passport-auth",
+  "version": "1.0.0",
+  "description": "Authorization system for nodeJS with passportJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brz0/nodejs-passport-auth"
+  },
+  "author": "Justin Brazeau",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.1.2",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.5",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
+}
